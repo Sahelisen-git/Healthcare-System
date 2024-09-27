@@ -1,0 +1,190 @@
+.user{
+    min-height: 100vh;
+    height: auto;
+    box-sizing: border-box;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.user .profile_sec{
+    margin-top: 20vh;
+    height: 300px;
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #259AFC;
+    border-radius: 20px;
+                filter: drop-shadow(rgba(0, 0, 0, 0.4) 0px 0px 10px);
+                    box-sizing: border-box;
+                    overflow: hidden;
+}
+
+.user .profile_sec .profile_image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 30%;
+}
+.user .profile_sec .profile_image .img{
+    height: 250px;
+
+    width: 250px;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+
+.user .profile_sec .profile_details{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-sizing: border-box;
+}
+
+.user .profile_sec .profile_details .profile_desc{
+    color: white;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.user .chart{
+    width: 90vw;
+    height: 100%;
+    margin-top: 25px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 20px;
+                filter: drop-shadow(rgba(0, 0, 0, 0.4) 0px 0px 10px);
+                    box-sizing: border-box;
+                    overflow: hidden;
+                    margin-bottom: 10vh;
+    
+}
+
+.user .chart .label{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.user .chart .line{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    margin-bottom: 20px;
+}
+
+
+
+@media screen and (max-width:720px) {
+    .user .profile_sec {
+            height: auto;
+            width: 80vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #5cb6ff;
+            border-radius: 20px;
+            filter: drop-shadow(rgba(0, 0, 0, 0.4) 0px 0px 10px);
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+.user .profile_sec .profile_image {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+
+.user .profile_sec .profile_image .img {
+    height: auto;
+
+    width: 80%;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+
+.user .profile_sec .profile_details {
+    margin-bottom: 20px;
+    height: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.user .profile_sec .profile_details .profile_desc {
+    margin-top: 5px;
+    color: white;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.user .chart {
+    width: 80vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: aliceblue;
+
+}
+
+.user .chart .line {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 80%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+}

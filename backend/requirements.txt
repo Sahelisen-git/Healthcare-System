@@ -1,0 +1,10 @@
+python-dotenv
+pymongo[ocsp]
+gspread
+fastapi
+uvicorn
+pydantic
+oauth2client
+pandas
+xgboost
+scikit-learn

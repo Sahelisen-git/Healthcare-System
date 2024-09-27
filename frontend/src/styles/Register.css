@@ -1,0 +1,110 @@
+.register{
+    min-height: 100vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: auto;
+        width: 100vw;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        overflow: hidden;
+}
+
+.register .register_form{
+    border-radius: 25px;
+    margin-top: 50px;
+    padding: 20px;
+    height: auto;
+    width: 400px;
+    background-color: aliceblue;
+    filter: drop-shadow(rgba(0, 0, 0, 0.2) 0px 0px 10px);
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.register .register_form .registerlabel{
+        width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            height: auto;
+            font-family: "Roboto", sans-serif;
+            font-weight: 600;
+            font-style: normal;
+            font-size: 25px;
+            margin-bottom: 10px;
+}
+
+.register .register_form .modeswap{
+            width: 100%;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                text-align: center;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                height: auto;
+                font-family: "Roboto", sans-serif;
+                font-weight: 600;
+                font-style: normal;
+                font-size: 25px;
+                margin-bottom: 10px;
+                border-radius: 15px;
+}
+
+.register .register_form .modeswap .modeapp{
+    height: 45px;
+    width: 49%;
+    background-color: #5cb6ff;
+    border: 0px;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.register .register_form .register_det{
+    margin-bottom: 10px;
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: start;
+    outline: none;
+    border: 0px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.register .register_form .register_submit{
+    cursor: pointer;
+    border-radius: 15px;
+    border: 0px;
+    height: 45px;
+    width: 100px;
+    background-color: #5cb6ff;
+    font-size: 15px;
+}
+
+@media screen and (max-width:720px) {
+    .register .register_form{
+        height: auto;
+        width: 275px;
+        padding: 30px;
+    }
+
+        .register .register_form .register_submit{
+            font-size: 13px;
+        }
+}
