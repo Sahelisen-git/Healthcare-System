@@ -1,0 +1,202 @@
+.services{
+    height: 90vh;
+    width: 100vw;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.services .imgproto{
+    box-sizing: border-box;
+    padding: 30px;
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.services .imgproto .proto{
+    border-radius: 20px;
+    height: 100%;
+    width: 30%;
+    object-fit: cover;
+    filter: drop-shadow(rgba(0, 0, 0, 0.2) 0px 0px 20px);
+}
+
+.services .description{
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    height: 10%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.services .facility_sec{
+    height: 40%;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.services .facility_sec .facility_item{
+    margin-right: 7px;
+    margin-left: 7px;
+    list-style: none;
+    height: 100px;
+    width: 200px;
+    background-color: rgb(255, 245, 230);
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 25px;
+    padding: 10px;
+
+
+}
+
+.services .facility_sec .facility_item .facility_image{
+    height: 60%;
+    width: auto;
+    border-radius: 50%;
+    border: 2px solid black;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+.services .facility_sec .facility_item .facility_name{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+@media screen and (max-width:720px) {
+.services {
+        height: auto;
+        width: 100vw;
+        top: 10%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .services .imgproto {
+        box-sizing: border-box;
+        height: auto;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .services .imgproto .proto {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 20px;
+        height: 150px;
+        width: 100%;
+        object-fit: cover;
+        filter: drop-shadow(rgba(0, 0, 0, 0.2) 0px 0px 20px);
+    }
+
+    .services .description {
+        font-weight: 400;
+        font-family: "Roboto", sans-serif;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        text-align: justify;
+        margin-bottom: 35px;
+    }
+
+    .services .facility_sec {
+        margin-bottom: 20px;
+        height: auto;
+        width: 100%;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .services .facility_sec .facility_item {
+        margin: 7px;
+        list-style: none;
+        height: 75px;
+        width: 150px;
+        background-color: rgb(255, 245, 230);
+        box-sizing: border-box;
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        border-radius: 25px;
+        padding: 10px;
+
+
+    }
+
+    .services .facility_sec .facility_item .facility_image {
+        height: 60%;
+        width: auto;
+        border-radius: 50%;
+        border: 1.5px solid black;
+        padding: 5px;
+        box-sizing: border-box;
+        background-color: transparent;
+    }
+
+    .services .facility_sec .facility_item .facility_name {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        margin-left: 10px;
+        font-weight: 400;
+        font-size: 15px;
+        font-family: "Roboto", sans-serif;
+    }
+}

@@ -1,0 +1,16 @@
+venv
+__pycache__
+credentials/
+.env
+key.json
+test.py
+secret.py
+data/
+arduino/
+test.csv
+train.ipynb
+frontend
+test.html
+.vscode
+model.json
+train.txt

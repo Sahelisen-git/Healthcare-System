@@ -1,0 +1,86 @@
+.AssignPopup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+.AssignPopup .card{
+    height: auto;
+    width: 350px;
+    background-color: #259AFC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 25px;
+    filter: drop-shadow(rgba(0, 0, 0, 0.2) 0px 0px 10px);
+}
+
+.AssignPopup .card .id{
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+.AssignPopup .card .form{
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background-color: rgb(255, 245, 230);
+}
+
+.AssignPopup .card .form .entry{
+    outline: none;
+        height: 40px;
+        width: 100%;
+        background-color: white;
+        text-decoration: none;
+        border: 0px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        box-sizing: border-box;
+        padding-left: 10px;
+        padding-right: 10px;
+
+}
+
+.AssignPopup .card .form .submit{
+    outline: none;
+        height: 40px;
+        width: 100%;
+        background-color: #5cb6ff;
+        text-decoration: none;
+        border: 0px;
+        border-radius: 10px;
+        box-sizing: border-box;
+        padding-left: 10px;
+        padding-right: 10px;
+        cursor: pointer;
+}
+
+@media screen and (max-width: 720px) {
+    .AssignPopup .card{
+        width: 250px;
+    }
+}
